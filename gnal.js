@@ -11,8 +11,6 @@ function computerPlay() {
 
 const buttons = document.querySelectorAll('button');
 
-
-
 buttons.forEach((button) => {
   button.addEventListener('click', () => {
 
@@ -66,8 +64,6 @@ function playRound(playerSelection, computerSelection) {
     }
   }
 }
-
-
 
 function playGame(playerScore, computerScore) {
 
